@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-import com.github.vgaj.plainlanguageencoder.EncodeData;
+import io.github.vgaj.plainlanguageencoder.EncodeData;
 import org.junit.Test;
 
 import java.util.Collection;

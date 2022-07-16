@@ -21,8 +21,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-import com.github.vgaj.plainlanguageencoder.LanguageEncodedInputStream;
-import com.github.vgaj.plainlanguageencoder.LanguageEncodedOutputStream;
+import io.github.vgaj.plainlanguageencoder.LanguageEncodedInputStream;
+import io.github.vgaj.plainlanguageencoder.LanguageEncodedOutputStream;
 import org.junit.Test;
 
 import java.io.*;

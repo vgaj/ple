@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.github.vgaj.plainlanguageencoder;
+package io.github.vgaj.plainlanguageencoder;
 
 import java.io.IOException;
 import java.io.OutputStream;
