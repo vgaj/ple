@@ -6,10 +6,10 @@
 
     <groupId>io.github.vgaj</groupId>
     <artifactId>plain-language-encoder</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.0</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
-    <description>A library used to encode/decode to/from a text representation using common English words.</description>
+    <description>A library used to encode/decode data to/from a text representation using common English words.</description>
     <url>https://github.com/vgaj/ple</url>
 
     <properties>
@@ -38,12 +38,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <url>http://nexus:8081/repository/maven-snapshots/</url>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>nexus-releases</id>
-            <url>http://nexus:8081/repository/maven-releases/</url>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
 
