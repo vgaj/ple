@@ -6,7 +6,7 @@
 
     <groupId>io.github.vgaj</groupId>
     <artifactId>plain-language-encoder</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.1</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>A library used to encode/decode data to/from a text representation using common English words.</description>
@@ -37,24 +37,24 @@
     </scm>
 
     <distributionManagement>
+        <!--
         <snapshotRepository>
-            <id>nexus-snapshots</id>
+            <id>nexus-local</id>
             <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>nexus-releases</id>
+            <id>nexus-local</id>
             <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
-        <!--
-            <snapshotRepository>
-                <id>ossrh</id>
-                <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
-            </snapshotRepository>
-            <repository>
-                <id>ossrh</id>
-                <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-            </repository>
         -->
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
     </distributionManagement>
 
     <dependencies>
