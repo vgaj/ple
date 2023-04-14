@@ -11,6 +11,14 @@ Us it who one he do in may but oh. Or two he it on try say put get day. He it yo
 
 The intent is to make the encoded text look less obviously encoded, at least when examined by software with no capability of natural language understanding.
 
+## Try
+To try it out run:
+```
+java -jar plain-language-encoder-0.1.1-SNAPSHOT.jar encrypt original.txt encrypted.txt
+java -jar plain-language-encoder-0.1.1-SNAPSHOT.jar decrypt encrypted.txt decrypted.txt
+```
+
+## Code
 The Plain Language Encoder has two classes LanguageEncodedOutputStream and LanguageEncodedInputStream. These add functionality to (decorate) a OutputStream/InputStreamStream respectively, in a similar way to BufferedOutputStream/BufferedInputStream.
 
 To a file encode:
