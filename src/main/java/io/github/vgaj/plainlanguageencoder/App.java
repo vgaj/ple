@@ -11,8 +11,8 @@ import java.time.Instant;
 public class App {
     public static void main(String[] args) throws IOException {
         Instant start = Instant.now();
-        boolean isEncode = (args.length > 0 && args[0].equals("e"));
-        boolean isDecode = (args.length > 0 && args[0].equals("d"));
+        boolean isEncode = (args.length > 0 && args[0].startsWith("e"));
+        boolean isDecode = (args.length > 0 && args[0].startsWith("d"));
         if (args.length == 3 && (isEncode || isDecode)) {
             if (isEncode) {
                 try (InputStream is = new BufferedInputStream( new FileInputStream( args[1]));
