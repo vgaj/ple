@@ -44,3 +44,12 @@ try (InputStream is = new LanguageEncodedInputStream( new BufferedInputStream( n
   }
 }
 ```
+
+The Plain Language Encoder is available in Maven Central
+```
+<dependency>
+  <groupId>io.github.vgaj</groupId>
+  <artifactId>plain-language-encoder</artifactId>
+  <version>0.1.1</version>
+</dependency>
+```
